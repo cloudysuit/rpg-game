@@ -1,0 +1,73 @@
+body {
+	background-image: url(../images/crystalMillenium.jpg);
+	background-size: cover;
+	color: pink;
+	font-family: 'Oswald', sans-serif;
+
+	
+}
+
+.characterImage{
+	width: 130px;
+	
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	border-radius: 10px;
+
+}
+
+.characterInfo{
+		background-color: #af50b2;
+		border-style: solid;
+		border-color: black;
+		border-width: 2px;
+		border-radius: 10px;
+		width: 200px;
+		
+}
+
+#characterOptions {
+		width: 1000px;
+		margin: 0 auto;
+}
+
+.attacker {
+		background-color: red;
+}
+
+.defender {
+		background-color: yellow;
+}
+
+
+h1, h3 {
+	color: pink;
+	font-family: 'Berkshire Swash', cursive;
+	text-shadow: 2px 2px black;
+}
+
+h1{
+	font-size: 50px;
+}
+
+h3{
+	font-size: 40px;
+}
+
+button{
+		font-family: 'Berkshire Swash', cursive;
+		text-shadow: 2px 2px black;
+}
+
+#fightResults {
+		background-color: white;
+		opacity: 0.5;
+		height: 120px;
+		margin-top: 15px;
+		color: black;
+}
+
+.results {
+		font-size: 24px;
+}
