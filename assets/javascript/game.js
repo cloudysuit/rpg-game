@@ -169,7 +169,8 @@ $("#fight").on("click", function(){
 			}
 	}
 
-//sets conditions and defines actions based on final win or lose status. 
+//sets conditions and defines actions based on final win or lose status. Currently only Sailor Moon can win but that's kinda
+//how the show worked too. So it's fitting, if also something that will have to be adjusted later. 
 
 
 			if (characters[hero].health > 0 && defendersRemaining === 0){
